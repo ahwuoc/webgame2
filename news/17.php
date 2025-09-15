@@ -19,7 +19,7 @@ require_once '../core/cauhinh.php';
                                 <b>
                                     <font style="color: red;">ADMIN</font>
                                     <font>
-                                        <p><i>Dragonballsaga </i>
+                                        <p><i><?= GAME_NAME ?> </i>
                                             
                                         </p>
                                     </font>
@@ -28,7 +28,7 @@ require_once '../core/cauhinh.php';
                         </td>
                         <td class="posts_boxContent__XjPnA">
                             <div class="posts_contentPost___PyGu">
-                                <div class="posts_title__P1NsS">🎁 MÃ GIFTCODE CHO GAME DRAGONBALLSAGA🎉</div>
+                                <div class="posts_title__P1NsS">🎁 MÃ GIFTCODE CHO GAME <?= GAME_NAME ?> 🎉</div>
 <div class="posts_boxTime__bFU28"><span class="posts_time__PFYQE"><i>Thời gian sử dụng: không giới hạn</i></span></div>
 <div>
     <div class="fr-view" style="background-color: rgb(255, 255, 255);">

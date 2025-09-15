@@ -89,7 +89,7 @@ if ($_login == null) {
                         <div class="page-layout-body">
                             <!-- load view -->
                             <div class="ant-row">
-    <div class="ant-col ant-col-24 home_page_bodyTitleList__UdhN_">Dragonballsaga Login</div>
+    <div class="ant-col ant-col-24 home_page_bodyTitleList__UdhN_">Đăng nhập <?= GAME_NAME ?></div>
     </div>
 <div class="ant-col ant-col-24">
     <div class="ant-list ant-list-split">

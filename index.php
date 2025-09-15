@@ -279,7 +279,7 @@ function showCharacters(id) {
     <div class="col">
         <div class="ant-row">
 			<div class="dragonball-title">
-				Giới thiệu Nro Dragonballsaga
+				Giới thiệu NRO <?= GAME_NAME ?>
 			</div>
 		</div>
        <!-- Hành tinh xoay + Nhân vật -->
@@ -395,9 +395,9 @@ function showCharacters(id) {
 	</div>
     </div>
 	<div class="game-intro">
-		<p>Dragonballsaga &ndash; game nhập vai trực tuyến với cốt truyện v&agrave; nh&acirc;n vật dựa tr&ecirc;n bộ truyện tranh nổi tiếng Nhật Bản Dragon Ball đ&atilde; từng l&agrave;m say l&ograve;ng bao nhi&ecirc;u thế hệ độc giả Việt Nam. Bạn sẽ chọn tiếp nhận h&agrave;nh tinh n&agrave;o, Tr&aacute;i Đất, Namếc hay Xayda? Cuộc h&agrave;nh tr&igrave;nh t&igrave;m kiếm ngọc rồng v&agrave; chống lại thế lực hung &aacute;c sẽ do bạn quyết định, vận mệnh lu&ocirc;n nằm trong tay người được chọn.</p>
+		<p><?= GAME_NAME ?> &ndash; game nhập vai trực tuyến với cốt truyện v&agrave; nh&acirc;n vật dựa tr&ecirc;n bộ truyện tranh nổi tiếng Nhật Bản Dragon Ball đ&atilde; từng l&agrave;m say l&ograve;ng bao nhi&ecirc;u thế hệ độc giả Việt Nam. Bạn sẽ chọn tiếp nhận h&agrave;nh tinh n&agrave;o, Tr&aacute;i Đất, Namếc hay Xayda? Cuộc h&agrave;nh tr&igrave;nh t&igrave;m kiếm ngọc rồng v&agrave; chống lại thế lực hung &aacute;c sẽ do bạn quyết định, vận mệnh lu&ocirc;n nằm trong tay người được chọn.</p>
 		<p>C&ugrave;ng với sự hướng dẫn của c&aacute;c bậc tiền bối v&agrave; sự nỗ lực của bản th&acirc;n, bạn c&oacute; thể đạt đến sức mạnh vượt trội trở th&agrave;nh những chiến binh si&ecirc;u hạng. Ngo&agrave;i ra, bạn sẽ kh&ocirc;ng phải chiến đấu đơn độc khi xung quanh bạn l&agrave; bạn b&egrave; v&agrave; những chiến binh c&ugrave;ng ch&iacute; hướng, c&ugrave;ng hỗ trợ lẫn nhau đối đầu với c&aacute;c thế lực hắc &aacute;m.</p>
-		<p>Dragonballsaga&agrave; tr&ograve; chơi trực tuyến đa nền tảng. Bạn c&oacute; thể chơi được tr&ecirc;n mọi nền tảng từ m&aacute;y t&iacute;nh PC Windows, iPhone, c&aacute;c d&ograve;ng m&aacute;y chạy hệ điều h&agrave;nh Android, Windows Phone đến c&aacute;c cả bản Java chạy tr&ecirc;n S40, S60 cũ của Nokia. Với chất lượng cao v&agrave; tốc độ mượt m&agrave; tr&ecirc;n c&aacute;c loại đường truyền mạng ADSL, 3G, GPRS.</p>
+		<p><?= GAME_NAME ?>&agrave; tr&ograve; chơi trực tuyến đa nền tảng. Bạn c&oacute; thể chơi được tr&ecirc;n mọi nền tảng từ m&aacute;y t&iacute;nh PC Windows, iPhone, c&aacute;c d&ograve;ng m&aacute;y chạy hệ điều h&agrave;nh Android, Windows Phone đến c&aacute;c cả bản Java chạy tr&ecirc;n S40, S60 cũ của Nokia. Với chất lượng cao v&agrave; tốc độ mượt m&agrave; tr&ecirc;n c&aacute;c loại đường truyền mạng ADSL, 3G, GPRS.</p>
 		<p>Tr&ograve; chơi th&iacute;ch hợp với mọi lứa tuổi. Điều khiển trực tiếp nh&acirc;n vật rất dễ d&agrave;ng tr&ecirc;n m&agrave;n h&igrave;nh cảm ứng. Khi chơi tr&ecirc;n PC bạn chỉ cần d&ugrave;ng chuột, hoặc linh hoạt điều khiển nh&acirc;n vật với b&agrave;n ph&iacute;m cứng điện thoại Nokia S40, S60.</p>
 	</div>
 </div>

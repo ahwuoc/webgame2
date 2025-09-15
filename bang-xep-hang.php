@@ -150,7 +150,7 @@ include_once 'core/head.php';
 			</div>
 
             <p class="mt-3 font-weight-bold">
-                Chào mừng đến với <strong>Bảng Xếp Hạng Cao Thủ Ngọc Rồng Dragonballsaga</strong> – nơi vinh danh những chiến binh vĩ đại nhất hành tinh!<br>
+                Chào mừng đến với <strong>Bảng Xếp Hạng Cao Thủ Ngọc Rồng <?= GAME_NAME ?></strong> – nơi vinh danh những chiến binh vĩ đại nhất hành tinh!<br>
                 Bảng xếp hạng được cập nhật liên tục dựa trên <strong>sức mạnh, lượng nạp,</strong> và <strong>nhiệm vụ hoàn thành</strong>, phản ánh chân thực sức mạnh và sự nỗ lực của từng người chơi trong hành trình chinh phục vũ trụ Ngọc Rồng Huyết Chiến.
             </p>
         </div>

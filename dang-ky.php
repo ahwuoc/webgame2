@@ -23,12 +23,6 @@ if (!isset($_SESSION['sv'])) {
         case 2:
             $db = $conn1;
             break;
-        // case 3:
-        //     $db = $conn2;
-        //     break;
-        //     case 4:
-        //     $db = $conn3;
-        //     break;
         default:
             $db = $conn;
             break;
@@ -161,7 +155,7 @@ if (!isset($_SESSION['captcha'])) {
                         <div class="page-layout-body">
                             <!-- load view -->
                             <div class="ant-row">
-    <div class="ant-col ant-col-24 home_page_bodyTitleList__UdhN_">Dragonballsaga</div>
+    <div class="ant-col ant-col-24 home_page_bodyTitleList__UdhN_"><?= GAME_NAME ?></div>
     </div>
 <div class="ant-col ant-col-24">
     <div class="ant-list ant-list-split">
