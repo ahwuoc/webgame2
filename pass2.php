@@ -7,6 +7,16 @@ if ($_login === null) {
     echo '<script>window.location.href = "../dang-nhap.php";</script>';
     exit; // Add exit to stop executing further code
 }
+// Đảm bảo cột mkc2 tồn tại để tránh lỗi 42S22 khi DB chưa có cột này
+try {
+    $colCheck = $conn->query("SHOW COLUMNS FROM account LIKE 'mkc2'");
+    $hasMkc2 = $colCheck && $colCheck->fetch(PDO::FETCH_ASSOC);
+    if (!$hasMkc2) {
+        $conn->exec("ALTER TABLE account ADD COLUMN mkc2 VARCHAR(100) NOT NULL DEFAULT '0'");
+    }
+} catch (Exception $e) {
+    // Không làm trang vỡ; tiếp tục, phần bên dưới sẽ xử lý mềm dẻo
+}
         $sv = $_SESSION['sv'];
         if($sv == 1 ){
             $conn = $conn;
