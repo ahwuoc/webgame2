@@ -21,16 +21,29 @@ try {
     die("Error: " . $e->getMessage());
 }
 
+// Tạo URL trang chủ động (ưu tiên domain từ DB, fallback theo host hiện tại)
+$scheme = (!empty($_SERVER['REQUEST_SCHEME']))
+    ? $_SERVER['REQUEST_SCHEME']
+    : ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http');
+$hostFromServer = $_SERVER['HTTP_HOST'] ?? '';
+if (!empty($domain)) {
+    $siteUrl = $scheme . '://' . trim($domain, '/') . '/';
+} elseif (!empty($hostFromServer)) {
+    $siteUrl = $scheme . '://' . trim($hostFromServer, '/') . '/';
+} else {
+    $siteUrl = '/';
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title><?= GAME_NAME ?></title>
-	<link rel="canonical" href="https://dragonballsaga.vn/" />
+	<link rel="canonical" href="<?= htmlspecialchars($siteUrl, ENT_QUOTES, 'UTF-8') ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dragonballsaga.vn/" />
+    <meta property="og:url" content="<?= htmlspecialchars($siteUrl, ENT_QUOTES, 'UTF-8') ?>" />
     <meta property="og:title" content="<?= GAME_NAME ?>" />
     <meta property="og:description" content="Website chính thức của <?= GAME_NAME ?> – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!" />
     <meta property="og:image" content="" />
