@@ -50,8 +50,8 @@ uploads/
 
 # Configuration files with sensitive data
 config.php
-db_config.php
-bank_config.php
+# db_config.php
+# bank_config.php
 
 # Docker files (optional - uncomment if you don't want to track them)
 # Dockerfile
