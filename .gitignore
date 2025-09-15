@@ -1,0 +1,64 @@
+# Log files
+*.log
+error_log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Cache directories
+cache/
+tmp/
+temp/
+
+# Vendor directories (if using Composer)
+vendor/
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database files
+*.sqlite
+*.db
+
+# Upload directories (may contain user data)
+upload/
+uploads/
+
+# Configuration files with sensitive data
+config.php
+db_config.php
+bank_config.php
+
+# Docker files (optional - uncomment if you don't want to track them)
+# Dockerfile
+# docker-compose.yml
+# docker-compose.debug.yml
+
+# Backup files
+*.bak
+*.backup
+nap-atm.php.bak
