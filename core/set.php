@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once __DIR__ . '/config.php';
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 // Kiểm tra và khởi động phiên làm việc nếu chưa được khởi động
