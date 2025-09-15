@@ -64,16 +64,17 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /error.php [L]
 
-# Bảo vệ tệp .htaccess
-<Files .htaccess>
-    order allow,deny
-    deny from all
+# Bảo vệ tệp .htaccess (Apache 2.4)
+<Files ".htaccess">
+    Require all denied
 </Files>
 
-# Thêm header Cache-Control cho các tệp tĩnh
-<FilesMatch "\.(jpg|jpeg|png|gif|svg|css|js)$">
-    Header set Cache-Control "max-age=31536000"
-</FilesMatch>
+# Thêm header Cache-Control cho các tệp tĩnh (chỉ khi có mod_headers)
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpg|jpeg|png|gif|svg|css|js)$">
+        Header set Cache-Control "max-age=31536000"
+    </FilesMatch>
+</IfModule>
 
 # Thêm MIME type cho file .ipa
 AddType application/octet-stream .ipa
