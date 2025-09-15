@@ -1,6 +1,8 @@
 <?php
 #Duong Huynh Khanh Dang
-session_start(); // Start the session
+if (session_status() == PHP_SESSION_NONE) {
+    session_start(); // Start the session
+}
 
 // Destroy all session variables
 session_unset();
