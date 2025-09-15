@@ -13,14 +13,22 @@ $_packagePrices = [        // Gói Nạp      Giá Gói   (Không thay đổi g�
 
 #Web by DHKD
 $_Logo = ''; // Thay tên + đuôi của Logo vào đây
+
+// Tên game trung tâm (có thể thay đổi 1 nơi duy nhất)
+if (!defined('GAME_NAME')) {
+    define('GAME_NAME', 'Game Ngọc Rồng Gay');
+}
+
 define('LOGO_PATH', '/image/logo1.jpg'); // Đường dẫn logo chính
-define('LOGO_ALT', 'DragonBall GAY Logo'); // Alt text cho logo
+define('LOGO_ALT', GAME_NAME . ' Logo'); // Alt text cho logo
 define('FAVICON_PATH', '/image/logo1.jpg'); // Đường dẫn favicon
 define('LOGO_MAX_WIDTH', '300px'); // Chiều rộng tối đa của logo
 define('LOGO_MAX_HEIGHT', '150px'); // Chiều cao tối đa của logo
-$_Title = 'DragonBall GAY | Máy Chủ Ngọc Rồng Online';
-$_ServerName = 'DragonBall GAY';
-$_Description = 'Website chính thức của DragonBall GAY – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!';
+
+// Tiêu đề và mô tả mặc định lấy theo GAME_NAME
+$_Title = GAME_NAME . ' | Máy Chủ Ngọc Rồng Online';
+$_ServerName = GAME_NAME;
+$_Description = 'Website chính thức của ' . GAME_NAME . ' – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!';
 
 #Chức Năng Quên MK
 $_ForgotEmail = 'Email'; // Gmail Chạy Quên Mật Khẩu

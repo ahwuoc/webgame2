@@ -3,7 +3,10 @@ require_once __DIR__ . '/cauhinh.php';
 require_once __DIR__ . '/set.php';
 require_once __DIR__ . '/connect.php';
 require_once __DIR__ . '/../DHKD/Configs.php'; // Include file cấu hình để sử dụng CONST
-// session_start(); // Khởi động session
+// Khởi động session sớm trước mọi output để tránh cảnh báo headers
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 try {
     // Truy vấn lấy cột logo và domain từ bảng adminpanel
     $query = "SELECT logo, domain FROM adminpanel";
@@ -23,16 +26,16 @@ try {
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>DragonBall GAY</title>
+    <title><?= GAME_NAME ?></title>
 	<link rel="canonical" href="https://dragonballsaga.vn/" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dragonballsaga.vn/" />
-    <meta property="og:title" content="DragonBall GAY" />
-    <meta property="og:description" content="Website chính thức của Ngọc Rồng DragonBall GAY – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!" />
+    <meta property="og:title" content="<?= GAME_NAME ?>" />
+    <meta property="og:description" content="Website chính thức của <?= GAME_NAME ?> – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!" />
     <meta property="og:image" content="" />
     <link rel="shortcut icon" href="<?= FAVICON_PATH ?>">
-    <meta name="description" content="Website chính thức của Ngọc Rồng DragonBall GAY – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
+    <meta name="description" content="Website chính thức của <?= GAME_NAME ?> – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
     <meta name="keywords" content="ngoc rong mobile, game ngoc rong, game 7 vien ngoc rong, game bay vien ngoc rong">
     <link rel="stylesheet" href="/public/dist/css/style.css">
     <link rel="stylesheet" href="/public/dist/css/main.css" />
@@ -376,7 +379,7 @@ try {
                     </div>
                     <div class="marquee-container">
 						<div class="marquee-wrapper">
-							<div class="marquee-text">Chào Mừng Cư Dân Đến Với DragonBall GAY. Hãy Tải Game Và Chiến Ngay Nào.</div>
+							<div class="marquee-text">Chào Mừng Cư Dân Đến Với <?= GAME_NAME ?>. Hãy Tải Game Và Chiến Ngay Nào.</div>
 						</div>
 					</div>
                     <div class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24">
