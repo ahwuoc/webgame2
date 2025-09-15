@@ -58,7 +58,7 @@ if ($_login === null) {
                 <div> Thông tin mở thành viên:<br>- Mở thành viên Free<strong> 50.000 VNĐ</strong>. <img
                         src="image/hot.gif"><br>- Được miễn phí <strong>GiftCode Thành viên</strong>. <img
                         src="image/hot.gif"><br>- Tận hưởng trọn vẹn các tính năng. Chỉ Cần Tài Khoản Có 50k Sẽ Không Bị Trừ 50K Đó -Đủ Điều Kiện Là Được<img src="image/hot.gif"><br>- Xây
-                    dựng, ủng hộ dragonballsaga.vn hoạt động.<br>
+                    dựng, ủng hộ <?= GAME_NAME ?> hoạt động.<br>
 					 - <span class="text-success font-weight-bold">Hoàn thành nhiệm vụ 23 [Tiêu Diệt Fide] để mở thành viên miễn phí!</span>
                 </div>
                     <br>
