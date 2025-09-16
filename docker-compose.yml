@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/var/www/html
     environment:
-      - DB_HOST=localhost
+      - DB_HOST=14.225.219.221
       - DB_USER=dragonboy_user
       - DB_PASS=dragonboy_pass
       - DB_NAME=dragonboy

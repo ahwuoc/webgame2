@@ -6,7 +6,7 @@
 
 // Database configuration with environment variable support
 if (!defined('DB_HOST')) {
-    define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
+    define('DB_HOST', getenv('DB_HOST') ?: '14.225.219.221');
 }
 if (!defined('DB_USER')) {
     define('DB_USER', getenv('DB_USER') ?: 'dragonboy_user');
