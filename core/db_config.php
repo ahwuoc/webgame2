@@ -9,13 +9,13 @@ if (!defined('DB_HOST')) {
     define('DB_HOST', getenv('DB_HOST') ?: '14.225.219.221');
 }
 if (!defined('DB_USER')) {
-    define('DB_USER', getenv('DB_USER') ?: 'thaodragon');
+    define('DB_USER', getenv('DB_USER') ?: 'dragonboy_user');
 }
 if (!defined('DB_PASS')) {
-    define('DB_PASS', getenv('DB_PASS') ?: 'thaodragon');
+    define('DB_PASS', getenv('DB_PASS') ?: 'dragonboy_pass');
 }
 if (!defined('DB_NAME')) {
-    define('DB_NAME', getenv('DB_NAME') ?: 'thaodragon');
+    define('DB_NAME', getenv('DB_NAME') ?: 'dragonboy');
 }
 if (!defined('DB_PORT')) {
     define('DB_PORT', getenv('DB_PORT') ?: '3306');

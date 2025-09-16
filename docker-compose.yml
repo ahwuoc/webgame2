@@ -10,9 +10,9 @@ services:
       - .:/var/www/html
     environment:
       - DB_HOST=14.225.219.221
-      - DB_USER=thaodragon
-      - DB_PASS=thaodragon
-      - DB_NAME=thaodragon
+      - DB_USER=dragonboy_user
+      - DB_PASS=dragonboy_pass
+      - DB_NAME=dragonboy
       - DB_PORT=3306
     extra_hosts:
       - "host.docker.internal:host-gateway"
