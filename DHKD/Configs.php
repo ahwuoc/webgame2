@@ -14,9 +14,8 @@ $_packagePrices = [        // Gói Nạp      Giá Gói   (Không thay đổi g�
 #Web by DHKD
 $_Logo = ''; // Thay tên + đuôi của Logo vào đây
 
-// Tên game trung tâm (có thể thay đổi 1 nơi duy nhất)
 if (!defined('GAME_NAME')) {
-    define('GAME_NAME', 'Game Ngọc Rồng Gay');
+    define('GAME_NAME', 'Game Ngọc Rồng Hit');
 }
 
 define('LOGO_PATH', '/image/logo1.jpg'); // Đường dẫn logo chính
