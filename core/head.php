@@ -348,15 +348,6 @@ if (!empty($domain)) {
                                                 </div>
                                             </div>
 											
-											<div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">
-                                                <div>
-                                                    <a href="https://www.facebook.com/profile.php?id=61574968000795">
-                                                        <button type="button" class="ant-btn ant-btn-default header-menu-item header-menu-item-active w-100 /fanpage">
-                                                            <b>Fanpage</b>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
                                           <!--  <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">
                                                 <div>
                                                     <a href="https://t.me/+SPVbxFHdayNmOTRl">
