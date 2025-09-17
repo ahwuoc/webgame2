@@ -76,7 +76,7 @@ if (!empty($domain)) {
                     <div class="ant-col page-layout-header ant-col-xs-24 ant-col-sm-24 ant-col-md-24">
                         <div class="page-layout-header-content">
                             <a href="/">
-                                <img src="<?= LOGO_PATH ?>" class="header-logo" alt="<?= LOGO_ALT ?>"
+                                <img src="<?= LOGO_PATH ?>?v=<?= time() ?>" class="header-logo" alt="<?= LOGO_ALT ?>"
                                     style="display: block;margin-left: auto;margin-right: auto;max-height: <?= LOGO_MAX_HEIGHT ?>; auto;max-width: <?= LOGO_MAX_WIDTH ?>;">
 
                                 <!-- style="max-height: 120px; max-width: 70%" / -->
