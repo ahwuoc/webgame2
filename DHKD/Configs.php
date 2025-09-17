@@ -42,9 +42,9 @@ $_FixWeb = '0'; // Bảo Trì = 1, Không Bảo Trì = 0
 $_AuthLog = '0'; // Bảo Trì = 1, Không Bảo Trì = 0
 
 #Hỗ Trợ
-$_Fanpage = 'https://zalo.me/g/ucnfsi865';
-$_Zalo = 'https://zalo.me/g/ucnfsi865';
-$_Tiktok = 'https://zalo.me/g/ucnfsi865';
+$_Fanpage = 'https://zalo.me/g/nxcbcf984';
+$_Zalo = 'https://zalo.me/g/nxcbcf984';
+$_Tiktok = 'https://zalo.me/g/nxcbcf984';
 $_Group = '';
 
 #---------------#
