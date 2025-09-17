@@ -4,8 +4,7 @@ services:
   web:
     build: .
     container_name: webgame_php
-    ports:
-      - "80:80"
+    network_mode: host
     volumes:
       - .:/var/www/html
     environment:
@@ -14,5 +13,3 @@ services:
       - DB_PASS=dragonboy_pass
       - DB_NAME=dragonboy
       - DB_PORT=3306
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
