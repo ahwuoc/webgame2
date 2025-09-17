@@ -38,6 +38,12 @@ include '../core/head.php';
                                                 Tên tài khoản: <?= BANK_ACCOUNT_NAME ?>
                                             </div>
                                             
+                                            <div class="text-center mb-4">
+                                                <a href="/lich-su-nap-tien" class="btn btn-outline-primary">
+                                                    📊 Lịch sử nạp tiền
+                                                </a>
+                                            </div>
+                                            
                                             <h4>Thông tin thanh toán</h4>
                                             <form id="payment-form">
                                                 <div class="form-group">
