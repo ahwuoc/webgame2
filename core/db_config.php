@@ -9,10 +9,10 @@ if (!defined('DB_HOST')) {
     define('DB_HOST', getenv('DB_HOST') ?: '14.225.219.221');
 }
 if (!defined('DB_USER')) {
-    define('DB_USER', getenv('DB_USER') ?: 'dragonboy_user');
+    define('DB_USER', getenv('DB_USER') ?: 'root');
 }
 if (!defined('DB_PASS')) {
-    define('DB_PASS', getenv('DB_PASS') ?: 'dragonboy_pass');
+    define('DB_PASS', getenv('DB_PASS') ?: 'root123');
 }
 if (!defined('DB_NAME')) {
     define('DB_NAME', getenv('DB_NAME') ?: 'dragonboy');

@@ -5,12 +5,12 @@
  */
 
 // Thông tin ngân hàng
-if (!defined('BANK_NAME')) define('BANK_NAME', 'Ngân hàng TMCP Quân đội');
-if (!defined('BANK_CODE')) define('BANK_CODE', 'MB');
-if (!defined('BANK_BIN')) define('BANK_BIN', '970422');
-if (!defined('BANK_SHORT_NAME')) define('BANK_SHORT_NAME', 'MBBank');
-if (!defined('BANK_ACCOUNT_NUMBER')) define('BANK_ACCOUNT_NUMBER', '0862267487');
-if (!defined('BANK_ACCOUNT_NAME')) define('BANK_ACCOUNT_NAME', 'NGUYEN ANH QUOC');
+if (!defined('BANK_NAME')) define('BANK_NAME', 'Ngân hàng TMCP Công thương Việt Nam');
+if (!defined('BANK_CODE')) define('BANK_CODE', 'ICB');
+if (!defined('BANK_BIN')) define('BANK_BIN', '970415');
+if (!defined('BANK_SHORT_NAME')) define('BANK_SHORT_NAME', 'VietinBank');
+if (!defined('BANK_ACCOUNT_NUMBER')) define('BANK_ACCOUNT_NUMBER', '109622666168');
+if (!defined('BANK_ACCOUNT_NAME')) define('BANK_ACCOUNT_NAME', 'NGUYEN VAN THAO');
 if (!defined('BANK_SUPPORTED')) define('BANK_SUPPORTED', true);
 
 // Cấu hình QR Code
@@ -18,7 +18,7 @@ define('QR_TEMPLATE', 'compact');
 define('QR_DOWNLOAD', '1');
 
 // Thông tin bổ sung
-define('BANK_PHONE', '0862267487');
+define('BANK_PHONE', '109622666168');
 define('BANK_QR_IMAGE', 'img/qrmomo.png');
 
 // Cấu hình thanh toán
