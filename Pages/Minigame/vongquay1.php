@@ -405,7 +405,7 @@ if (!$row) {
         $.ajax({
             type: 'post',
             dataType: "JSON",
-            url: '/API/vongquay',
+            url: '/api/vongquay',
             data: {
                 csrf: $('#csrf').val()
             },
@@ -435,7 +435,7 @@ if (!$row) {
 
 
 
-    fetch('/API/getlswheel.php')
+    fetch('/api/getlswheel.php')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok: ' + response.statusText);

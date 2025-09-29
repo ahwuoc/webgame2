@@ -50,7 +50,8 @@ $deviceIdCommon_goc_config = '6gln7bb9-mbib-0000-0000-2024050401324715'; // Tha 
 $stkmbbank_config = '100882167496'; // Số tài khoản Mbbank
 $mbbank_name = 'MBBANK'; // Tên Tài khoản Mbbank
 $_mbbank = 'Ngân Hàng Quân Đội | MBBANK'; // Ngân hàng quân đội Mbbank
-$_token = ($conn->query("SELECT token FROM cpanel")->fetchColumn()) ?? '';
+// Không còn sử dụng bảng cpanel để lấy token. Đặt mặc định rỗng hoặc cấu hình qua ENV nếu cần
+$_token = getenv('CPANEL_TOKEN') ?: '';
 function CreateToken()
 {
     return md5(uniqid(rand(), true));

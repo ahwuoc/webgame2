@@ -34,8 +34,16 @@ class Database
                     PDO::ATTR_EMULATE_PREPARES => false,
                 ]);
             } catch (PDOException $e) {
-                // Avoid leaking credentials
-                throw new RuntimeException('Database connection failed');
+                $message = sprintf(
+                    'Không thể kết nối CSDL. Host=%s Port=%s DB=%s. Lỗi: %s',
+                    $host,
+                    $portUse,
+                    $db,
+                    $e->getMessage()
+                );
+                // Ghi log chi tiết phục vụ debug (không ghi mật khẩu)
+                error_log('[DB_CONN_ERROR] DSN=' . $dsn . ' USER=' . $user . ' ERROR=' . $e->getMessage());
+                throw new RuntimeException($message);
             }
         }
 

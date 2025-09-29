@@ -1,7 +1,7 @@
 <?php
 #Duong Huynh Khanh Dang
 
-require_once '../core/db_config.php';
+require_once __DIR__ . '/../core/db_config.php';
 
 $databaseConfig = [
     'ip' => DB_HOST,
@@ -13,11 +13,11 @@ $databaseConfig = [
 // Set time zone
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 
-// Function to establish a database connection
 function getDatabaseConnection($connConfig)
 {
     try {
-        $dsn = "mysql:host={$connConfig['ip']};dbname={$connConfig['dbname']};charset=utf8mb4";
+        $port = defined('DB_PORT') ? DB_PORT : '3306';
+        $dsn = "mysql:host={$connConfig['ip']};port={$port};dbname={$connConfig['dbname']};charset=utf8mb4";
         $conn = new PDO($dsn, $connConfig['user'], $connConfig['pass']);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $conn;

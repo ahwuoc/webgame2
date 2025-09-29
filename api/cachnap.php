@@ -54,7 +54,7 @@ function getPaymentMethodsHTML($packageId)
         </div>
         <div class="form-group" id="__method_group"><label>Chọn phương thức</label>
             <div class="error d-none" id="method-error" style="color: red; margin-bottom: 10px;"></div>
-            <div class="list-methods block" id="__game_method" data-href="/API/DoNap">
+            <div class="list-methods block" id="__game_method" data-href="/api/DoNap">
                 <div class="method"><input type="radio" name="payment_method" id="bank_visa"><label for="bank_visa" data-method="bank_visa" data-packageid="<?php echo $packageId; ?>" data-source-package="<?php echo $packageId; ?>" onclick="select_method(this)">
                         <div class="method-detail">
                             <div class="method-thumb"><img src="/Assets/frontend/img/logo-cards/credit-card.jpg" class="img-fluid"></div>

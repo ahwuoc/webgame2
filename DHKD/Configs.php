@@ -15,7 +15,7 @@ $_packagePrices = [        // Gói Nạp      Giá Gói   (Không thay đổi g�
 $_Logo = ''; // Thay tên + đuôi của Logo vào đây
 
 if (!defined('GAME_NAME')) {
-    define('GAME_NAME', 'Game Ngọc Rồng Hit');
+    define('GAME_NAME', 'Game Ngọc Rồng Đấu Phá');
 }
 
 define('LOGO_PATH', '/image/logo1.jpg'); // Đường dẫn logo chính

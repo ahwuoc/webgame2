@@ -25,9 +25,9 @@ include_once 'core/head.php';
 													<div class="ant-list-item-meta home_page_listItemTitle__YB3V5">
 														<div class="ant-list-item-meta-content">
 															<h4 class="ant-list-item-meta-title">
-																<a href="/news/16.php"> SỰ KIỆN HÈ 2025 – KHÁM PHÁ BIỂN XANH, SĂN QUÀ CỰC ĐÃ!
-																	<img src="image/new.gif" alt="New" />
-																</a>
+									<a href="/news/15.php">TÍNH NĂNG MỚI: ĐỆ TỬ MỚI
+										<img src="image/new.gif" alt="New" />
+									</a>
 															</h4>
 														<div class="ant-list-item-meta-description">Đăng bởi: <b style="color: red;">ADMIN</b> - Ngày: 1/06/2025</div>
 													</div>
@@ -38,7 +38,7 @@ include_once 'core/head.php';
 													<div class="ant-list-item-meta home_page_listItemTitle__YB3V5">
 														<div class="ant-list-item-meta-content">
 															<h4 class="ant-list-item-meta-title">
-																<a href="/news/15.php">TÍNH NĂNG MỚI: ĐỆ TỬ MỚI
+									<a href="/news/17.php">GIFTCODE
 																	<img src="image/new.gif" alt="New" />
 																</a>
 															</h4>
@@ -51,7 +51,7 @@ include_once 'core/head.php';
 													<div class="ant-list-item-meta home_page_listItemTitle__YB3V5">
 														<div class="ant-list-item-meta-content">
 															<h4 class="ant-list-item-meta-title">
-																<a href="/news/17.php">GIFTCODE
+									<a href="/news/9.php">Hướng Dẫn Mở Thành Viên
 																	<img src="image/new.gif" alt="New" />
 																</a>
 															</h4>

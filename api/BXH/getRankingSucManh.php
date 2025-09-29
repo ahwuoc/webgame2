@@ -10,7 +10,8 @@ include '../../DHKD/Session.php';
 include '../../DHKD/Configs.php';
 
 // Câu truy vấn để lấy dữ liệu
-$query = "SELECT name, dameBoss FROM player ORDER BY dameBoss DESC LIMIT 10";
+// Bảng player không có cột 'dameBoss'. Dùng 'PointBoss' và alias về dameBoss để tương thích frontend
+$query = "SELECT name, PointBoss AS dameBoss FROM player ORDER BY PointBoss DESC LIMIT 10";
 
 $stmt = $conn->prepare($query);
 $stmt->execute();

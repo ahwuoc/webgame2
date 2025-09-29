@@ -31,7 +31,7 @@ if (!isset($_Login) || $_Login === null) {
         <div class="form-group">
             <label>Chọn gói nạp</label>
             <div class="error d-none" id="package-error" style="color: red; margin-bottom: 10px;"></div>
-            <div class="list-packages" id="__game_package" data-href="/API/CachNap">
+            <div class="list-packages" id="__game_package" data-href="/api/CachNap">
                 <div class="package">
                     <label data-packageid="NRO_001" onclick="select_package(this)">
                         <div class="package-gold">20K VND</div>

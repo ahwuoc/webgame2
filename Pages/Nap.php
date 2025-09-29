@@ -116,7 +116,7 @@ $thongbao = isset($thongbao) ? $thongbao : '';
                     </ul>                    
                     <fieldset class="role">
                     <?php echo $thongbao; ?>
-                        <div class="form-card" id="__game_role" data-href="/API/NapUser">
+                        <div class="form-card" id="__game_role" data-href="/api/NapUser">
                             <div class="form-group">
                                 <label>Chọn máy chủ</label>
                                 <select id="serverID" name="serverID" class="form-control">

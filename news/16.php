@@ -28,7 +28,7 @@ require_once '../core/cauhinh.php';
                         </td>
                         <td class="posts_boxContent__XjPnA">
                             <div class="posts_contentPost___PyGu">
-                                <div class="posts_title__P1NsS">🌴 SỰ KIỆN HÈ 2025 – KHÁM PHÁ BIỂN XANH, SĂN QUÀ CỰC ĐÃ! 🌊</div>
+                                <div class="posts_title__P1NsS">🌴  🌊</div>
 <div class="posts_boxTime__bFU28"><span class="posts_time__PFYQE"><i>Thời gian: Sau bảo trì ngày 01/06/2025</i></span></div>
 <div>
     <div class="fr-view" style="background-color: rgb(255, 255, 255);">

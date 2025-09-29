@@ -45,7 +45,7 @@ function CheckUser($role, $conn)
                 $_SESSION['usernameshow'] = ''; // Set a default or handle as needed
             }
             $html = '
-            <div class="form-group" id="find-package" data-href="/API/GoiNap">
+            <div class="form-group" id="find-package" data-href="/api/GoiNap">
                 <label>Chọn nhân vật</label>
                 <select id="role_id" name="role_id" class="form-control" onchange="findPackage(this)">
                     <option value="'. $_SESSION['idshow'] .'">'. maskUsername($_SESSION['usernameshow']) .'</option>

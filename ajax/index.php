@@ -351,7 +351,7 @@ require_once './DHKD/Header.php';
         document.getElementById('currentMonth').textContent = currentMonth;
 
         // Fetch data for SỨC MẠNH
-        fetch('/API/BXH/getRankingSucManh.php')
+        fetch('/api/BXH/getRankingSucManh.php')
                 .then(response => response.json())
                 .then(data => {
                     let html = '<table class="rank_table">';
@@ -384,7 +384,7 @@ require_once './DHKD/Header.php';
                 });
 
         // Fetch data for THỎI VÀNG
-        fetch('/API/BXH/getRankingThoiVang.php')
+        fetch('/api/BXH/getRankingThoiVang.php')
             .then(response => response.json())
             .then(data => {
                 let html = '<table class="rank_table">';
@@ -415,7 +415,7 @@ require_once './DHKD/Header.php';
             });
 
         // Fetch data for VIP
-        fetch('/API/BXH/getRankingNap.php')
+        fetch('/api/BXH/getRankingNap.php')
             .then(response => response.json())
             .then(data => {
                 let html = '<table class="rank_table">';
@@ -446,7 +446,7 @@ require_once './DHKD/Header.php';
                 document.getElementById('rankingtb').innerHTML = 'Không thể tải dữ liệu từ API.';
             });
 // Fetch data for NHẬP MA
-// fetch('/API/BXH/getRankingNhapMa.php')
+// fetch('/api/BXH/getRankingNhapMa.php')
 //             .then(response => response.json())
 //             .then(data => {
 //                 let html = '<table class="rank_table">';
@@ -1724,7 +1724,7 @@ function closeCheckin() {
     // Hàm kiểm tra điểm danh và xử lý phản hồi từ máy chủ
     async function checkAttendance() {
         try {
-            const response = await fetch('/API/checkAttendance.php', {
+            const response = await fetch('/api/checkAttendance.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -1746,7 +1746,7 @@ function closeCheckin() {
     // Hàm để xử lý điểm danh
    async function handleAttendance() {
     try {
-        const response = await fetch('/API/markAttendance.php', {
+        const response = await fetch('/api/markAttendance.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

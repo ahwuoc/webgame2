@@ -50,10 +50,10 @@ if (!empty($domain)) {
     <link rel="shortcut icon" href="<?= FAVICON_PATH ?>">
     <meta name="description" content="Website chính thức của <?= GAME_NAME ?> – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
     <meta name="keywords" content="ngoc rong mobile, game ngoc rong, game 7 vien ngoc rong, game bay vien ngoc rong">
-    <link rel="stylesheet" href="/public/dist/css/style.css">
+    <link rel="stylesheet" href="/public/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/dist/css/main.css" />
     <link rel="stylesheet" href="/public/dist/css/main2.css" />
-    <link rel="stylesheet" href="/public/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/dist/css/style.css?v=<?= time() ?>">
     <link rel="stylesheet" href="/public/dist/css/all.min.css" />
     <link rel="stylesheet" href="/public/dist/css/sweetalert2.min.css" />
     <link rel="stylesheet" href="/public/dist/css/notiflix-3.2.6.min.css" />

@@ -15,44 +15,58 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 30px; /* Điều chỉnh kích thước theo kích thước thực tế của mũi tên */
+    width: 30px;
+    /* Điều chỉnh kích thước theo kích thước thực tế của mũi tên */
     height: 30px;
     cursor: pointer;
 }
 
 .swiper-button-prev {
-    left: 10px; /* Điều chỉnh vị trí của mũi tên prev */
+    left: 10px;
+    /* Điều chỉnh vị trí của mũi tên prev */
 }
 
 .swiper-button-next {
-    right: 10px; /* Điều chỉnh vị trí của mũi tên next */
+    right: 10px;
+    /* Điều chỉnh vị trí của mũi tên next */
 }
 
 .content-banner-slide .swiper-slide {
-    background-color: #fffde7; /* Màu nền vàng */
-    border: 2px solid #ffc107; /* Viền khung màu vàng */
-    border-radius: 15px; /* Bo tròn góc khung */
-    overflow: hidden; /* Ẩn phần vượt khỏi khung */
+    background-color: #e6f7ff;
+    /* Nền xanh biển nhạt */
+    border: 2px solid #7dd3fc;
+    /* Viền xanh nhạt */
+    border-radius: 15px;
+    /* Bo tròn góc khung */
+    overflow: hidden;
+    /* Ẩn phần vượt khỏi khung */
 }
 
 
 .swiper-container {
-    overflow: hidden; /* Hide overflow to only show centered slide */
+    overflow: hidden;
+    /* Hide overflow to only show centered slide */
 }
 
 .swiper-wrapper {
-    display: flex; /* Use flexbox for slides */
+    display: flex;
+    /* Use flexbox for slides */
 }
 
 .swiper-slide {
-    flex-shrink: 0; /* Prevent slides from shrinking */
-    width: 100%; /* Ensure each slide takes full width */
-    opacity: 0; /* Initially hide all slides */
-    transition: opacity 0.3s ease; /* Smooth opacity transition */
+    flex-shrink: 0;
+    /* Prevent slides from shrinking */
+    width: 100%;
+    /* Ensure each slide takes full width */
+    opacity: 0;
+    /* Initially hide all slides */
+    transition: opacity 0.3s ease;
+    /* Smooth opacity transition */
 }
 
 .swiper-slide.swiper-slide-active {
-    opacity: 1; /* Show active slide */
+    opacity: 1;
+    /* Show active slide */
 }
 
 .feature-icon {
@@ -69,8 +83,8 @@
 }
 
 .list-group-item.active {
-    background-color: #f44336;
-    border-color: #f44336;
+    background-color: #0ea5e9;
+    border-color: #0ea5e9;
 }
 
 a {
@@ -79,16 +93,16 @@ a {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    background-color: #f44336;
+    background-color: #0ea5e9;
 }
 
 .nav-link {
-    color: #f44336;
+    color: #0d6efd;
 }
 
 .nav-link:focus,
 .nav-link:hover {
-    color: #cd3a2f;
+    color: #0284c7;
 }
 
 .form-signin {
@@ -176,28 +190,31 @@ a {
     max-width: 250%;
     max-height: 450px;
 }
+
 .container {
     max-width: 960px !important;
 }
-html *
-{
-   font-size: 14px !important;
+
+html * {
+    font-size: 14px !important;
 }
+
 .main {
-    background-color: #ffb473;
+    background-color: #ccefff;
     border-radius: 20px;
     padding: 10px 30px;
 }
+
 .card {
-    background-color: #feecd8 !important;
+    background-color: #e6f7ff !important;
     border-radius: 20px !important;
 }
 
 .post-item {
-    background-color: #fdf8da;
-    border: 1px solid #ffdbb3;
+    background-color: #eaf7ff;
+    border: 1px solid #cdeafe;
     border-radius: 16px;
-    box-shadow: 0 3px 4px rgba(0,0,0,.051);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .051);
     padding: 10px;
     min-height: 87px;
 }
@@ -206,6 +223,7 @@ html *
     border: none;
     width: 65px;
 }
+
 .post-image {
     /* align-self: start; */
     margin-right: 10px;
@@ -215,7 +233,7 @@ html *
 
 .modal-main {
     padding: 24px;
-    background-color: #fce3c6 !important;
+    background-color: #e0f7ff !important;
     border-radius: 10px !important;
 }
 
@@ -232,6 +250,7 @@ html *
     font-style: italic;
     font-weight: 700;
 }
+
 .success-form {
     color: green;
     font-style: italic;
@@ -239,14 +258,15 @@ html *
 }
 
 .btn-main-yellow {
-    background-color: #ffc10740 !important;
+    background-color: #0ea5e940 !important;
+    /* đổi sang tông xanh */
     border-radius: 10px !important;
 }
 
 .bg-handle-main {
     width: 100%;
     height: 100%;
-    background-color: black; 
+    background-color: black;
     position: fixed;
     top: 0;
     opacity: 0.3;
@@ -259,56 +279,59 @@ html *
 }
 
 .form-input-main {
-    border: 2px solid #ffb473 !important;
+    border: 2px solid #7dd3fc !important;
     border-radius: 10px !important;
 }
 
 .post-detail {
-    background-color: #fff3cd;
-    border: 3px #fff3cd;
+    background-color: #e6f7ff;
+    border: 3px #e6f7ff;
     border-image: none;
     border-radius: 10px;
     border-style: solid solid none;
     border-width: 1px 0;
-    box-shadow: 0 3px 8px rgba(0,0,0,.239);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .239);
     color: inherit;
     padding: 5px 10px 10px;
 }
 
 .post-author {
-    color: #dc3545;
+    color: #0d6efd;
 }
 
 .post-date {
-    color: #6c757d!important;
+    color: #6c757d !important;
     font-size: 12px !important;
 }
 
 .pager-item {
-    background-color: #fdf8da;
-    border: 1px solid #ffdbb3;
+    background-color: #eaf7ff;
+    border: 1px solid #cdeafe;
     border-radius: 10px;
-    box-shadow: 0 3px 4px rgba(0,0,0,.051);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .051);
     width: 40px;
     height: 40px;
     font-weight: bold;
     margin-left: 5px;
 }
+
 .pager-item:hover {
-    background-color: #ffc10740;
+    background-color: #0ea5e940;
 }
+
 .pager-item.active {
-    background-color: #ffc107;
-    border-color: #ffc107;
+    background-color: #0ea5e9;
+    border-color: #0ea5e9;
 }
 
 .recharge-method-item {
-    background-color: #fdf8da;
-    border: 3px solid #ffae52;
+    background-color: #eaf7ff;
+    border: 3px solid #7dd3fc;
     border-radius: 16px;
     padding: 10px;
     width: 100%;
 }
+
 .recharge-method-item img {
     border-radius: 16px;
     max-height: 100%;
@@ -316,12 +339,87 @@ html *
 }
 
 .recharge-method-item:hover {
-    border: 3px solid #ff8400;
+    border: 3px solid #0284c7;
 }
 
 .recharge-method-item.active {
-    background-color: #faeda7;
-    border: 3px solid #ff5900;
+    background-color: #d9f2ff;
+    border: 3px solid #0ea5e9;
+}
+
+/* --- Sea/Blue theme overrides (unified) --- */
+:root {
+    --sea-primary: #0ea5e9;
+    --sea-primary-dark: #0284c7;
+    --sea-accent: #7dd3fc;
+    --sea-bg: #e6f7ff;
+}
+
+/* Header menu buttons */
+.header-menu-item {
+    background-color: var(--sea-accent) !important;
+    border: 1px solid var(--sea-primary) !important;
+    color: #083344 !important;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25) !important;
+}
+
+.header-menu-item:hover,
+.header-menu-item.header-menu-item-active {
+    background-color: var(--sea-primary) !important;
+    color: #ffffff !important;
+    border-color: var(--sea-primary-dark) !important;
+}
+
+/* Home list item styling */
+.home_page_listItem__GD_iE {
+    background: linear-gradient(to right, #d9f2ff, #e6f7ff) !important;
+    border: 1px solid #bfe7ff !important;
+    box-shadow: 0 6px 16px rgba(14, 165, 233, 0.25) !important;
+}
+
+.home_page_listItem__GD_iE:hover {
+    box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35) !important;
+}
+
+.home_page_listItemAvatar__cXjbm {
+    border: 2px solid var(--sea-primary) !important;
+    box-shadow: 0 0 12px #7dd3fc, 0 0 6px #38bdf8 !important;
+}
+
+.home_page_listItem__GD_iE:hover .home_page_listItemAvatar__cXjbm {
+    box-shadow: 0 0 16px #0ea5e9, 0 0 8px #0284c7 !important;
+}
+
+.home_page_listItemTitle__YB3V5 {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border-left: 4px solid var(--sea-primary) !important;
+    box-shadow: inset 0 0 6px rgba(14, 165, 233, 0.2) !important;
+}
+
+.ant-list-item-meta-title a {
+    color: #0369a1 !important;
+}
+
+.ant-list-item-meta-title a:hover {
+    color: #0ea5e9 !important;
+}
+
+/* Pill and nav accents */
+.btn-main-yellow {
+    background-color: rgba(14, 165, 233, 0.25) !important;
+}
+
+.pager-item.active {
+    background-color: var(--sea-primary) !important;
+    border-color: var(--sea-primary) !important;
+}
+
+.pager-item:hover {
+    background-color: rgba(14, 165, 233, 0.25) !important;
+}
+
+.post-author {
+    color: #0ea5e9 !important;
 }
 
 .color-red {
@@ -331,4 +429,75 @@ html *
 .avatar-main {
     max-height: 65px;
     max-width: 65px;
+}
+
+/* ---- Banner/Layout overrides (overrule old orange theme) ---- */
+.page-layout-content {
+    background-color: #0ea5e9 !important;
+    /* primary sea */
+    border-radius: 15px !important;
+    border: 2px solid #7dd3fc !important;
+    box-shadow: 0 0 10px rgba(14, 165, 233, .65), 0 0 20px rgba(14, 165, 233, .45) !important;
+}
+
+.page-layout-header-content {
+    background-color: var(--sea-bg) !important;
+}
+
+.page-layout-body {
+    background-color: #e6f7ff !important;
+}
+
+.marquee-container .marquee-text {
+    color: #083344 !important;
+}
+
+/* Ant Design-like button overrides */
+.ant-btn {
+    border-radius: 8px !important;
+    transition: background-color .2s ease, border-color .2s ease, color .2s ease, box-shadow .2s ease !important;
+}
+
+.ant-btn-default,
+.header-btn-login,
+.header-menu-item {
+    background-color: var(--sea-accent) !important;
+    border: 1px solid var(--sea-primary) !important;
+    color: #083344 !important;
+}
+
+.ant-btn-default:hover,
+.ant-btn-default:focus,
+.header-btn-login:hover,
+.header-btn-login:focus,
+.header-menu-item:hover {
+    background-color: var(--sea-primary) !important;
+    border-color: var(--sea-primary-dark) !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(14, 165, 233, .35) !important;
+}
+
+.ant-btn-primary {
+    background-color: var(--sea-primary) !important;
+    border-color: var(--sea-primary-dark) !important;
+    color: #ffffff !important;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+    background-color: var(--sea-primary-dark) !important;
+    border-color: #0369a1 !important;
+}
+
+/* Keep danger buttons red but harmonize hover */
+.ant-btn-danger {
+    background-color: #ef4444 !important;
+    border-color: #dc2626 !important;
+    color: #ffffff !important;
+}
+
+.ant-btn-danger:hover,
+.ant-btn-danger:focus {
+    background-color: #dc2626 !important;
+    border-color: #b91c1c !important;
 }
