@@ -19,7 +19,7 @@ require_once '../core/cauhinh.php';
                                 <b>
                                     <font style="color: red;">ADMIN</font>
                                     <font>
-                                        <p><i>SAGA </i>
+                                        <p><i><?= GAME_NAME ?> </i>
                                             
                                         </p>
                                     </font>
@@ -28,7 +28,7 @@ require_once '../core/cauhinh.php';
                         </td>
                         <td class="posts_boxContent__XjPnA">
                             <div class="posts_contentPost___PyGu">
-                                <div class="posts_title__P1NsS">🔥 CƠ CHẾ TỔNG HỢP - NGỌC RỒNG SAGA 🔥</div>
+                                <div class="posts_title__P1NsS">🔥 CƠ CHẾ TỔNG HỢP - <?= GAME_NAME ?> 🔥</div>
 <div class="posts_boxTime__bFU28"><span class="posts_time__PFYQE"><i>18:18 25/12/2024</i></span></div>
 <div>
     <div class="fr-view" style="background-color: rgb(255, 255, 255);">
@@ -90,9 +90,9 @@ require_once '../core/cauhinh.php';
 
         <hr>
 
-        <p><strong>🔴 Lưu Ý:</strong> Cơ chế này giúp người chơi <strong>cày cuốc</strong> để sở hữu các trang bị mạnh nhất, tạo nên sự cạnh tranh và thử thách hấp dẫn trong Ngọc Rồng SAGA!</p>
+        <p><strong>🔴 Lưu Ý:</strong> Cơ chế này giúp người chơi <strong>cày cuốc</strong> để sở hữu các trang bị mạnh nhất, tạo nên sự cạnh tranh và thử thách hấp dẫn trong <?= GAME_NAME ?>!</p>
 
-        <p><strong>[ NGOC RONG SAGA ]</strong></p>
+        <p><strong>[ <?= strtoupper(GAME_NAME) ?> ]</strong></p>
     </div>
 </div>
                            <!--         <div class="fr-view" style="background-color: rgb(255, 255, 255);">

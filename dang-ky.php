@@ -166,7 +166,7 @@ if (!isset($_SESSION['captcha'])) {
     <div class="container pt-5 pb-5">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
-                <h3>ĐĂNG KÝ SERVER SAGA</h3>
+                <h3>ĐĂNG KÝ <?= GAME_NAME ?></h3>
                 <form id="form" method="POST">
                     <div class="form-group">
                         <label><span class="text-danger">*</span> Tài khoản:</label>

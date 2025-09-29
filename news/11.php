@@ -19,7 +19,7 @@ require_once '../core/cauhinh.php';
                                 <b>
                                     <font style="color: red;">ADMIN</font>
                                     <font>
-                                        <p><i>SAGA </i>
+                                        <p><i><?= GAME_NAME ?> </i>
                                             
                                         </p>
                                     </font>
@@ -28,7 +28,7 @@ require_once '../core/cauhinh.php';
                         </td>
                         <td class="posts_boxContent__XjPnA">
                             <div class="posts_contentPost___PyGu">
-                                <div class="posts_title__P1NsS">🎉 SỰ KIỆN 8/3 - NGỌC RỒNG SAGA 🎉</div>
+                                <div class="posts_title__P1NsS">🎉 SỰ KIỆN 8/3 - <?= GAME_NAME ?> 🎉</div>
 <div class="posts_boxTime__bFU28"><span class="posts_time__PFYQE"><i>Thời gian: 09/03/2025 - 31/03/2025</i></span></div>
 <div>
     <div class="fr-view" style="background-color: rgb(255, 255, 255);">
@@ -114,7 +114,7 @@ require_once '../core/cauhinh.php';
 
         <p><strong>🔴 Lưu Ý:</strong> Sự kiện chỉ diễn ra trong thời gian có hạn, hãy tham gia ngay để không bỏ lỡ những phần quà hấp dẫn!</p>
 
-        <p><strong>[ NGOC RONG SAGA ]</strong></p>
+        <p><strong>[ <?= strtoupper(GAME_NAME) ?> ]</strong></p>
     </div>
 </div>
 

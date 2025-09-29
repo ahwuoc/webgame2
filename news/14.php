@@ -19,7 +19,7 @@ require_once '../core/cauhinh.php';
                                 <b>
                                     <font style="color: red;">ADMIN</font>
                                     <font>
-                                        <p><i>SAGA </i>
+                                        <p><i><?= GAME_NAME ?> </i>
                                             
                                         </p>
                                     </font>
@@ -132,7 +132,7 @@ require_once '../core/cauhinh.php';
             <li>💡 Tham gia ngay để không bỏ lỡ những phần quà hấp dẫn!</li>
         </ul>
 
-        <p><strong>[ NGOC RONG SAGA ]</strong></p>
+        <p><strong>[ <?= strtoupper(GAME_NAME) ?> ]</strong></p>
     </div>
 </div>
                            <!--         <div class="fr-view" style="background-color: rgb(255, 255, 255);">

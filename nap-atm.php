@@ -13,7 +13,7 @@ if ($_Login === null) {
         $tentaikhoan = 'NGUYEN CHI HUONG';
         // $sotaikhoan ='099964399999';
         // $noidungnap ='DRAGONBALLSAGA';
-        $sotaikhoan ='0904769973';
+        $sotaikhoan ='0862267487';
         $noidungnap ='optimus';
         if($sv == 1 ){
             $sotaikhoan = '0904769973';

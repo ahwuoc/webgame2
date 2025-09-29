@@ -19,7 +19,7 @@ require_once '../core/cauhinh.php';
                                 <b>
                                     <font style="color: red;">ADMIN</font>
                                     <font>
-                                        <p><i>SAGA </i>
+                                        <p><i><?= GAME_NAME ?> </i>
                                             
                                         </p>
                                     </font>
@@ -28,11 +28,11 @@ require_once '../core/cauhinh.php';
                         </td>
                         <td class="posts_boxContent__XjPnA">
                             <div class="posts_contentPost___PyGu">
-                                <div class="posts_title__P1NsS">🔥 Kích Hoạt Thành Viên - Ngọc Rồng SAGA 🔥</div>
+                                <div class="posts_title__P1NsS">🔥 Kích Hoạt Thành Viên - <?= GAME_NAME ?> 🔥</div>
                                 <div class="posts_boxTime__bFU28"><span class="posts_time__PFYQE"><i>18:18 30/07/2025</i></span></div>
                             <div>
                             <div class="fr-view" style="background-color: rgb(255, 255, 255);">
-                                <p><strong>📢 Mở Thành Viên Ngọc Rồng SAGA!</strong></p>
+                                <p><strong>📢 Mở Thành Viên <?= GAME_NAME ?>!</strong></p>
 
                                 <p><strong>📅 Thời Gian Diễn Ra:</strong></p>
                                 <p>- Không giới hạn thời gian.</p>
@@ -64,7 +64,7 @@ require_once '../core/cauhinh.php';
 
                                 <p>Hãy chọn cách mở thành viên phù hợp với bạn và tận hưởng ngay những đặc quyền hấp dẫn! 🚀</p>
 
-                                <p><strong>[ NGOC RONG SAGA ]</strong></p>
+                                <p><strong>[ <?= strtoupper(GAME_NAME) ?> ]</strong></p>
                             </div>
                             </div>
                             </div>
