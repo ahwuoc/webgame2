@@ -59,19 +59,6 @@ include_once 'core/head.php';
 													</div>
 												</div>
                                             </li>
-                                            <li class="ant-list-item home_page_listItem__GD_iE">
-												<img src="public/images/avataradm.gif" class="home_page_listItemAvatar__cXjbm" />
-													<div class="ant-list-item-meta home_page_listItemTitle__YB3V5">
-														<div class="ant-list-item-meta-content">
-															<h4 class="ant-list-item-meta-title">
-																<a href="/news/9.php">Hướng Dẫn Mở Thành Viên
-																	<img src="image/new.gif" alt="New" />
-																</a>
-															</h4>
-														<div class="ant-list-item-meta-description">Đăng bởi: <b style="color: red;">ADMIN</b> - Ngày: 21/02/2025</div>
-													</div>
-												</div>
-                                            </li>
 											<li class="ant-list-item home_page_listItem__GD_iE">
 												<img src="public/images/avataradm.gif" class="home_page_listItemAvatar__cXjbm" />
 													<div class="ant-list-item-meta home_page_listItemTitle__YB3V5">

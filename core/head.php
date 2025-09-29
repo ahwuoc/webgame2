@@ -47,7 +47,7 @@ if (!empty($domain)) {
     <meta property="og:title" content="<?= GAME_NAME ?>" />
     <meta property="og:description" content="Website chính thức của <?= GAME_NAME ?> – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!" />
     <meta property="og:image" content="" />
-    <link rel="shortcut icon" href="<?= FAVICON_PATH ?>">
+    <link rel="icon" href="<?= FAVICON_PATH ?>?v=<?= time() ?>">
     <meta name="description" content="Website chính thức của <?= GAME_NAME ?> – Game Bay Vien Ngoc Rong Mobile nhập vai trực tuyến trên máy tính và điện thoại về Game 7 Viên Ngọc Rồng hấp dẫn nhất hiện nay!">
     <meta name="keywords" content="ngoc rong mobile, game ngoc rong, game 7 vien ngoc rong, game bay vien ngoc rong">
     <link rel="stylesheet" href="/public/dist/css/bootstrap.min.css">
@@ -337,26 +337,7 @@ if (!empty($domain)) {
                                                     </a>
                                                 </div>
                                             </div>
-											
-                                            <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">
-                                                <div>
-                                                    <a href="https://zalo.me/g/wraaym774">
-                                                        <button type="button" class="ant-btn ant-btn-default header-menu-item header-menu-item-active w-100 /fanpage">
-                                                            <b>BoxZaloEvent</b>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
-											
-                                          <!--  <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">
-                                                <div>
-                                                    <a href="https://t.me/+SPVbxFHdayNmOTRl">
-                                                        <button type="button" class="ant-btn ant-btn-default header-menu-item w-100 /fanpage">
-                                                            <b>Box Telegram</b>
-                                                        </button>
-                                                    </a>
-                                                </div>
-                                            </div>
+                                            
                                             <!-- <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">-->
                                             <!--    <div>-->
                                             <!--        <a href="Link zalo">-->
@@ -371,7 +352,7 @@ if (!empty($domain)) {
                                             <!--        <a href="Link zalo">-->
                                             <!--            <button type="button" class="ant-btn ant-btn-default header-menu-item w-100 /fanpage">-->
                                             <!--                <b>BoxZalo SV4</b>-->
-                                            <!--            </button>-->
+                                            <!--            </                                            <!--  <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">button>-->
                                             <!--        </a>-->
                                             <!--    </div>-->
                                             <!--</div>-->
@@ -392,7 +373,7 @@ if (!empty($domain)) {
                                 <div class="row ant-space ant-space-horizontal ant-space-align-center space-header-menu d-flex justify-content-center" style="flex-wrap:wrap;margin-bottom:-10px">
                                     <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">
                                         <div>
-                                            <a href="<?= DOWNLOAD_ANDROID_URL ?>">
+                                            <a href="<?= DOWNLOAD_WINDOWS_URL ?>">
                                                 <button style="height:45px" type="button" class="ant-btn ant-btn-default header-menu-item header-menu-item-active w-100">
                                                     <img src="/public/images/0hrzmer.png" style="width:97px" />
                                                 </button>
@@ -401,7 +382,7 @@ if (!empty($domain)) {
                                     </div>
                                     <div class="ant-space-item col-6 col-md-3 col-lg-2" style="padding-bottom:10px">
                                         <div>
-                                            <a href="<?= DOWNLOAD_WINDOWS_URL ?>">
+                                            <a href="<?= DOWNLOAD_ANDROID_URL ?>">
                                                 <button style="height:45px" type="button" class="ant-btn ant-btn-default header-menu-item header-menu-item-active w-100">
                                                     <img src="/public/images/RAGk2Dn.png" style="width:97px" />
                                                 </button>

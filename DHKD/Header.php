@@ -11,7 +11,7 @@ if (isset($_FixWeb) && $_FixWeb == 1) {
 ?>
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="/Public/Assets/Images/<?= LOGO ?>">
+    <link rel="icon" href="<?= FAVICON_PATH ?>?v=<?= time() ?>">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="theme-color" content="#000000">
     <meta name="title" content="<?= TITLE ?>">

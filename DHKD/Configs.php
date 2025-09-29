@@ -42,17 +42,17 @@ $_FixWeb = '0'; // Bảo Trì = 1, Không Bảo Trì = 0
 $_AuthLog = '0'; // Bảo Trì = 1, Không Bảo Trì = 0
 
 #Hỗ Trợ
-$_Fanpage = 'https://zalo.me/g/nxcbcf984';
-$_Zalo = 'https://zalo.me/g/nxcbcf984';
-$_Tiktok = 'https://zalo.me/g/nxcbcf984';
+$_Fanpage = 'https://zalo.me/g/oeokbj076';
+$_Zalo = 'https://zalo.me/g/oeokbj076';
+$_Tiktok = 'https://zalo.me/g/oeokbj076';
 $_Group = '';
 
 #---------------#
 #Downloads
-$_Windows = 'https://drive.google.com/file/d/1olQgky-shfeQTIuxuXlz21OLO3g9VoKv/view?usp=sharing'; // Downloads nơi lưu file game (Android)
-$_Iphone = 'https://testflight.apple.com/join/Se9bGBhR';
+$_Windows = 'https://drive.google.com/file/d/1xfYqpU27SBjazxTSbcovOHId7y3eeTTg/view?usp=sharing'; // Downloads nơi lưu file game (Android)
+$_Iphone = 'https://testflight.apple.com/join/DNvNVXq2';
 $_Java = '/Downloads/ThangHoa.jar';
-$_Android = 'https://drive.google.com/file/d/1SDfG9f1ChYhiRjGtozUVrgfy8Ra_TBHy/view?usp=sharing'; // Downloads nơi lưu file game (Android)
+$_Android = 'https://drive.google.com/file/d/1H2KgQos9vZto5y0Zzdc_YH6LTGpg8ne1/view?usp=sharing'; // Downloads nơi lưu file game (Android)
 
 # Expose as constants for use across the site
 define('DOWNLOAD_ANDROID_URL', $_Android);
