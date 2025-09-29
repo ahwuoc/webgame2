@@ -96,7 +96,7 @@ if (!empty($domain)) {
                                         <span>Đăng Nhập</span>
                                     </a>
                     
-                   <a type="button" href="../Pages/reg.php" class="ant-btn ant-btn-default header-btn-login mt-3 me-2">
+                   <a type="button" href="/dang-ky" class="ant-btn ant-btn-default header-btn-login mt-3 me-2">
                                         <span>Đăng Ký</span>
                                     </a>
                    <a type="button" href="../nap-qr" class="ant-btn ant-btn-default header-btn-login mt-3">
